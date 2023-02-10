@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+
+html{
+    font-size: 16.5px;
+    scroll-behavior: smooth;
+    font-family:'Urbanist', sans-serif;;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar-dark{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    background: #141414;
+}
+.nav-item a:hover{
+    transition: 0.5s;
+    color:#CB3D2F;
+}
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+.text-dark{
+    background:#F2F4F8;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    color:#2A2E31;
+}
+.bg-ime-red{
+    background:#CB3D2F;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    color:#FCF9D7
+}
+.bg-ime-blue{
+    background:#2A3789;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    color:#F2F4F8
+}
+.bg-underline-red{
+    background:#F2F4F8;
+    color:#2A2E31;
+    font-weight: 600;
+    border-bottom: 3px solid #CB3D2F;
+
+}
+.background-color{
+    background:#F2F4F8;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+}
+.parallax {
+    background-attachment: scroll;}
+.carousel {
+    font-family: 'Urbanist', sans-serif;
+}
+.bold {
+    font-weight: 600;
+}
+.card {
+    border: none;
+}
+.regular {
+    font-weight: 400;
+}
+.ime-default{
+    background:#F2F4F8;
+    font-family: 'Urbanist', sans-serif;
+    color: #2A2E31;
+}
+.no-padding{
+    padding: 0px !important;
+   }
+.ime-link{
+    color: #2A2E31;
+    font-weight: 600;
+    text-decoration: none;
+}
+.ime-link:hover{
+    color: #2A3789;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px !important;;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #F2F4F8;
+    width: 10px !important;;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2A3789;
+    width: 10px !important;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2A3789;
+    width: 10px !important;
+  }
+
+div.navbar *::-moz-selection {
+    background: none !important;
+}
+div.navbar *::selection {
+    background: none !important;
+}
+html {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;    
+}
+.card-ime{
+    background: #2A3789;
+    border-radius: 25%;
+    font-family: 'Urbanist', sans-serif;
+}
+.large{
+    font-size:x-large;
+}
+
+/* Social Media Footer */
+.btn-fb:hover {
+    background: #3b579d;
+    color: #ffffff;
+}
+
+/* Bidang Slider */
+.brands {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px
+}
+
+.brands_slider_container {
+    height: 130px;
+    border: solid 1px #e8e8e8;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 97px;
+    padding-right: 97px;
+    background: #fff;
+}
+
+.brands_slider {
+    height: 100%;
+    margin-top: 50px
+}
+
+.brands_item {
+    height: 100%
+}
+
+.brands_item img {
+    max-width: 100%
+}
+
+.brands_nav {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 5px;
+    cursor: pointer
+}
+
+.brands_nav i {
+    color: #e5e5e5;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.brands_nav:hover i {
+    color: #676767
+}
+
+.brands_prev {
+    left: 40px
+}
+
+.brands_next {
+    right: 40px
+}
